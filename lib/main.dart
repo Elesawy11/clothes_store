@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'features/home_screen/presentation/views/home_view.dart';
+import 'ecommerce_app.dart';
 
 void main(List<String> args) {
   runApp(const ECommerceApp());
@@ -23,7 +23,7 @@ class ECommerceApp extends StatelessWidget {
           ),
         ),
         debugShowCheckedModeBanner: false,
-        home: const HomeView(),
+        home: const EcommerceApp(),
       ),
     );
   }
